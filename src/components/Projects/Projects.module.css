@@ -1,0 +1,32 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.projects {
+  margin-top: 37px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  grid-gap: 15px; /* Space between cards */
+  width: 100%;
+  justify-items: center; /* Center align the cards */
+}
+
+.project-card {
+  width: 100%;
+  max-width: 800px; /* Optional: Set a max-width for better readability */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
