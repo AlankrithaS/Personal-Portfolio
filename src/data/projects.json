@@ -20,7 +20,7 @@
     "imageSrc": "projects/image.png",
     "description": "Discord bot using JDA monitors user activity, enforces rules with ban actions & offers slash commands.",
     "skills": ["Flask", "AWS Cloud", "Microservices"],
-    "demo": "https://discord.com/api/oauth2/authorize?client_id=891013000000000000&permissions=8&scope=bot%20applications.commands",
+    "demo": "https://ctffolks.site/",
     "source": "https://github.com/AlankrithaS/discord-bot-jda"
   },
   {

@@ -7,8 +7,7 @@ const roles = [
   "Software Engineer",
   "Front-End Developer",
   "Full-Stack Developer",
-  "Cloud Architect",
-  "DevOps Engineer"
+  "Cloud Architect"
 ];
 
 function Typewriter() {
@@ -60,8 +59,12 @@ export const Hero = () => {
         <p className={styles.description}>
           <Typewriter /> {/* Typing effect */}
         </p>
-        <a href="mailto:myemail@email.com" className={styles.contactBtn}>
-          Contact Me
+        <a
+          href="./resume.pdf" // Replace with the actual path to your resume
+          download="Alankritha_Resume.pdf" // Name of the downloaded file
+          className={styles.contactBtn}
+        >
+          Download Resume
         </a>
       </div>
       <img
